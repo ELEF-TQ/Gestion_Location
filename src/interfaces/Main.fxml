@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="458.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="20.0" layoutY="35.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@../application/application.css" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="35.0">
+         <styleClass>
+            <String fx:value="pane" />
+            <String fx:value="parent" />
+         </styleClass>
+         <children>
+            <VBox layoutX="14.0" layoutY="-23.0" prefHeight="434.0" prefWidth="338.0" styleClass="white-pane" />
+            <Label layoutX="420.0" layoutY="90.0" text="êtes-vous inscrit ? " textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Button layoutX="467.0" layoutY="170.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="trans-btn-white-border" stylesheets="@../application/application.css" text="Se connecter ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Button>
+            <Label layoutX="27.0" layoutY="90.0" text="vous n'êtes pas inscrit ? " textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Button layoutX="71.0" layoutY="171.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="trans-btn-white-border" stylesheets="@../application/application.css" text="S'inscrire">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

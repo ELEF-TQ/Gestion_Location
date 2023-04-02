@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="434.0" prefWidth="338.0" styleClass="tf" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="86.0" prefHeight="42.0" prefWidth="186.0" text="S'inscrire" textFill="#ff0404" textOverrun="WORD_ELLIPSIS" AnchorPane.bottomAnchor="306.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="152.0" AnchorPane.topAnchor="86.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" layoutX="6.0" layoutY="122.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="55.0" prefWidth="326.0" stylesheets="@../application/application.css">
+         <children>
+            <TextField prefHeight="43.0" prefWidth="270.0" promptText="Nom d'utilisateur" styleClass="tf" stylesheets="@../application/application.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <FontAwesomeIcon glyphName="USER" selectionEnd="0" size="25" text="" textAlignment="CENTER" wrappingWidth="43.0" />
+         </children>
+         <styleClass>
+            <String fx:value="tf_box" />
+            <String fx:value="tf" />
+         </styleClass>
+      </HBox>
+      <HBox alignment="TOP_RIGHT" layoutX="36.0" layoutY="325.0" prefHeight="34.0" prefWidth="270.0">
+         <children>
+            <Button mnemonicParsing="false" styleClass="pink-btn" stylesheets="@../application/application.css" text="S'inscrire" textOverrun="CLIP">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="25.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="6.0" layoutY="245.0" prefHeight="55.0" prefWidth="326.0" stylesheets="@../application/application.css">
+         <children>
+            <TextField prefHeight="43.0" prefWidth="270.0" promptText="Mot de passe" styleClass="tf" stylesheets="@../application/application.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <FontAwesomeIcon glyphName="LOCK" selectionEnd="0" size="25" textAlignment="CENTER" wrappingWidth="42.071428298950195" />
+         </children>
+         <styleClass>
+            <String fx:value="tf_box" />
+            <String fx:value="tf" />
+         </styleClass>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="8.0" layoutY="190.0" prefHeight="55.0" prefWidth="326.0" stylesheets="@../application/application.css">
+         <children>
+            <TextField prefHeight="43.0" prefWidth="270.0" promptText="Adresse email" styleClass="tf" stylesheets="@../application/application.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <FontAwesomeIcon glyphName="WEIXIN" selectionEnd="0" size="25" textAlignment="CENTER" wrappingWidth="42.071428298950195" />
+         </children>
+         <styleClass>
+            <String fx:value="tf_box" />
+            <String fx:value="tf" />
+         </styleClass>
+      </HBox>
+   </children>
+</AnchorPane>
