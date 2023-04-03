@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.Controller">
+   <children>
+      <Pane layoutX="19.0" layoutY="14.0" prefHeight="43.0" prefWidth="647.0" style="-fx-background-color: BLUE;">
+         <children>
+            <Label contentDisplay="RIGHT" layoutX="52.0" layoutY="12.0" prefHeight="24.0" prefWidth="94.0" text="Disponibilité" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <FontAwesomeIcon fill="WHITE" glyphName="HOME" layoutX="7.0" layoutY="31.0" size="20" textAlignment="CENTER" wrappingWidth="51.14285755157471" />
+            <Label layoutX="152.0" layoutY="16.0" text="Label" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="339.0" fitWidth="234.0" layoutX="358.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField layoutX="358.0" layoutY="143.0" prefHeight="35.0" prefWidth="203.0" />
+      <TextField layoutX="358.0" layoutY="218.0" prefHeight="35.0" prefWidth="203.0" style="-fx-border-width: 0 0 2 0;" stylesheets="@../application/application.css" />
+      <TextField layoutX="358.0" layoutY="285.0" prefHeight="35.0" prefWidth="203.0" style="-fx-border-width: 0 0 2 0;" stylesheets="@../application/application.css" />
+      <Label layoutX="358.0" layoutY="115.0" text="Loyer" textFill="#1c02e5">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="358.0" layoutY="259.0" text="Région" textFill="#1c02e5">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="358.0" layoutY="192.0" text="Superficie" textFill="#1c02e5">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <FontAwesomeIcon fill="#1c02e5" glyphName="ANGLE_DOUBLE_LEFT" layoutX="406.0" layoutY="357.0" selectionFill="#1c02e5" size="30">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIcon>
+      <FontAwesomeIcon fill="#1c02e5" glyphName="ANGLE_DOUBLE_RIGHT" layoutX="475.0" layoutY="357.0" selectionFill="#1c02e5" size="30">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </FontAwesomeIcon>
+   </children>
+</AnchorPane>

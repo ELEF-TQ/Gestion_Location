@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.Controller">
+   <children>
+      <AnchorPane layoutY="114.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: gray;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="84.0" prefWidth="200.0" style="-fx-background-color: black;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label layoutX="33.0" layoutY="20.0" prefHeight="45.0" prefWidth="134.0" text="Agence Elef-TQ." textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutY="83.0" prefWidth="200.0" />
+               </children>
+            </Pane>
+            <Button layoutX="25.0" layoutY="111.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="157.0" style="-fx-background-color: transperant;" text="Aceuill" textFill="WHITE" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="26.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets top="7.0" />
+               </padding>
+            </Button>
+            <FontAwesomeIcon fill="WHITE" glyphName="HOME" layoutX="31.0" layoutY="133.0" selectionFill="#fffefe" size="20" />
+            <Button layoutX="23.0" layoutY="148.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="157.0" style="-fx-background-color: transperant;" text=" Logments" textFill="WHITE" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="26.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets top="7.0" />
+               </padding>
+            </Button>
+            <FontAwesomeIcon fill="WHITE" glyphName="BUILDING" layoutX="31.0" layoutY="170.0" selectionFill="#fffefe" size="20" />
+            <Button layoutX="25.0" layoutY="191.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="157.0" style="-fx-background-color: transperant;" text="Locataires" textFill="WHITE" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="26.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets top="7.0" />
+               </padding>
+            </Button>
+            <FontAwesomeIcon fill="WHITE" glyphName="HOTEL" layoutX="33.0" layoutY="213.0" selectionFill="#fffefe" size="20" />
+            <Button contentDisplay="CENTER" layoutX="14.0" layoutY="241.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="157.0" style="-fx-background-color: transperant;" text="Contrats" textFill="WHITE" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="26.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets top="7.0" />
+               </padding>
+            </Button>
+            <FontAwesomeIcon fill="WHITE" glyphName="CHECK_SQUARE_ALT" layoutX="35.0" layoutY="267.0" selectionFill="#fffefe" size="20" />
+            <Button layoutX="33.0" layoutY="291.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="157.0" style="-fx-background-color: transperant;" text="Factures" textFill="WHITE" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="26.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets top="7.0" />
+               </padding>
+            </Button>
+            <FontAwesomeIcon fill="WHITE" glyphName="MONEY" layoutX="34.0" layoutY="314.0" selectionFill="#fffefe" size="20" />
+            <Button layoutX="25.0" layoutY="338.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="157.0" style="-fx-background-color: transperant;" text="Historique" textFill="WHITE" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="26.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <padding>
+                  <Insets top="7.0" />
+               </padding>
+            </Button>
+            <FontAwesomeIcon fill="WHITE" glyphName="HISTORY" layoutX="34.0" layoutY="361.0" selectionFill="#fffefe" size="20" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="200.0" layoutY="82.0" prefHeight="418.0" prefWidth="700.0" />
+      <AnchorPane layoutX="200.0" layoutY="-1.0" prefHeight="84.0" prefWidth="700.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="84.0" fitWidth="222.0" layoutX="516.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="557.0" layoutY="35.0" text="Nom de l'utilisateur" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
