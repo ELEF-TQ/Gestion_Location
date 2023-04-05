@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.Controller">
+   <children>
+      <Label layoutX="43.0" layoutY="26.0" text="Recherche" />
+      <TextField layoutX="145.0" layoutY="22.0" promptText="Identifiant" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <TextField layoutX="31.0" layoutY="65.0" promptText="Adresse" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <TextField layoutX="227.0" layoutY="65.0" promptText="Superficie" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <ComboBox layoutX="31.0" layoutY="113.0" prefWidth="150.0" promptText="Region" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <ComboBox layoutX="219.0" layoutY="113.0" prefWidth="150.0" promptText="Province" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <ComboBox layoutX="414.0" layoutY="113.0" prefWidth="150.0" promptText="Commune" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <ComboBox layoutX="31.0" layoutY="169.0" prefWidth="150.0" promptText="Type" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <ComboBox layoutX="219.0" layoutY="169.0" prefWidth="150.0" promptText="Loyer" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <TableView layoutX="25.0" layoutY="208.0" prefHeight="164.0" prefWidth="635.0" stylesheets="@../application/application.css">
+        <columns>
+          <TableColumn prefWidth="77.0" text="ID" />
+          <TableColumn prefWidth="139.0" text="Adresse" />
+            <TableColumn prefWidth="103.0" text="Superficie" />
+            <TableColumn prefWidth="103.0" text="Loyer" />
+            <TableColumn prefWidth="103.0" text="Type" />
+            <TableColumn prefWidth="109.0" text="Region" />
+        </columns>
+         <styleClass>
+            <String fx:value="table-view" />
+            <String fx:value="table-row-cell" />
+            <String fx:value="table-cell" />
+         </styleClass>
+      </TableView>
+      <FontAwesomeIcon glyphName="SEARCH" layoutX="302.0" layoutY="41.0" size="20" wrappingWidth="24.142857551574707" />
+      <Button layoutX="195.0" layoutY="376.0" mnemonicParsing="false" styleClass="buttons" stylesheets="@../application/application.css" text="Ajouter">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="291.0" layoutY="376.0" mnemonicParsing="false" styleClass="buttons" stylesheets="@../application/application.css" text="Modifier">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="384.0" layoutY="376.0" mnemonicParsing="false" styleClass="buttons" stylesheets="@../application/application.css" text="Supprimer">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <FontAwesomeIcon glyphName="UPLOAD" layoutX="426.0" layoutY="189.0" size="20" wrappingWidth="24.142857551574707" />
+      <Label layoutX="453.0" layoutY="174.0" text="aucune Séléctionée" textFill="#0f50d3">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

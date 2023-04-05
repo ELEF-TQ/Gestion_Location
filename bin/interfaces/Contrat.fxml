@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="684.0" styleClass="backgrnd" stylesheets="@../application/application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controller">
+   <children>
+      <TextField layoutX="18.0" layoutY="85.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <ComboBox layoutX="25.0" layoutY="21.0" prefHeight="26.0" prefWidth="178.0" promptText="Location" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <FontAwesomeIcon glyphName="SEARCH" layoutX="215.0" layoutY="41.0" size="20" wrappingWidth="24.142857551574707" />
+      <Button layoutX="374.0" layoutY="349.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="290.0" style="-fx-background-color: red;" styleClass="buttons" stylesheets="@../application/application.css" text="Imprimer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="26.0" layoutY="66.0" text="Locataire" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="171.0" layoutY="85.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="180.0" layoutY="66.0" text="Logement" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="18.0" layoutY="149.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="25.0" layoutY="130.0" text="Adresse" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="175.0" layoutY="149.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="179.0" layoutY="130.0" text="Region" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="17.0" layoutY="216.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="26.0" layoutY="197.0" text="Type" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="182.0" layoutY="216.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="179.0" layoutY="197.0" text="Loyer" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="18.0" layoutY="274.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="25.0" layoutY="255.0" text="Forfaitaire" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="188.0" layoutY="274.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="169.0" layoutY="255.0" text="Montant A payer" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="18.0" layoutY="336.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="22.0" layoutY="313.0" text="Date Debut" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="182.0" layoutY="334.0" prefHeight="26.0" prefWidth="137.0" styleClass="tf_box" stylesheets="@../application/application.css" />
+      <Label layoutX="190.0" layoutY="313.0" text="Date Fin" textFill="#4908fc">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="299.0" fitWidth="305.0" layoutX="366.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+      <FontAwesomeIcon fill="WHITE" glyphName="PRINT" layoutX="400.0" layoutY="381.0" size="22" />
+   </children>
+</AnchorPane>
